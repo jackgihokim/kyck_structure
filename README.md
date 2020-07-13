@@ -11,7 +11,7 @@
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
 > Proxy Server : NginX v1.14.0   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Domain Name : www.wizborn.kr   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Domain Name : __   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AWS Elastic IP : Using   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AWS Route 53 set : A Record, CNAME   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- TLS Certificate : Let’s Encrypt with Certbot   
@@ -42,7 +42,7 @@
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
 > Proxy Server : NginX v1.14.0   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Domain Name : www.wizborn-tools.com   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Domain Name : __   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	AWS Elastic IP : Using   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	AWS Route 53 set : A Record, CNAME   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	TLS Certificate : Let’s Encrypt with Certbot   
@@ -53,4 +53,25 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Framework : Express v4.16.4   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Authentication : crypto & express-session with Passport   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	ODM : Mongoose v5.3.11   
+<br>
+
+> ###	공통 / MongoDB Atlas
+> AWS Region : Seoul (ap-northest-2)   
+> Cluster Tier : M10   
+> MongoDB version : v4.0.16   
+> Replica Set : 3 nodes   
+> Backups : Active   
+<br>
+
+> ###	공통 / AWS S3
+> AWS Region : Seoul (ap-northest-2)   
+> Access type : Public   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-profiles-pub   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-seasons-pub   
+> Access type : Private   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-cat-animation-img   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-cat-music-img   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-cat-youtuber-img   
+<br>
+
 
