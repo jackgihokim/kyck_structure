@@ -22,7 +22,8 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Framework : Express v4.16.4   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Authentication : JSON Web Token with Passport & One-Time Password   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- ODM : Mongoose v5.3.11   
-<br>
+
+
 > ### 킥킥 Service : Recommender Engine
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
