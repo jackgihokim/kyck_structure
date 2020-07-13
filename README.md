@@ -10,7 +10,7 @@
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
 > Proxy Server : NginX v1.14.0   
->    - Domain Name : www.wizborn.kr   
+> &nbsp; - Domain Name : www.wizborn.kr   
 > - AWS Elastic IP : Using   
 > - AWS Route 53 set : A Record, CNAME   
 > - TLS Certificate : Let’s Encrypt with Certbot   
