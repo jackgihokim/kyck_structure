@@ -11,7 +11,7 @@
 > OS : Ubuntu 18.04 LTS   
 > Proxy Server : NginX v1.14.0   
 > &nbsp; - Domain Name : www.wizborn.kr   
-> - AWS Elastic IP : Using   
+>　　　　　- AWS Elastic IP : Using   
 > - AWS Route 53 set : A Record, CNAME   
 > - TLS Certificate : Let’s Encrypt with Certbot   
 > - Protocol : HTTPS   
