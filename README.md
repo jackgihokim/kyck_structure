@@ -7,7 +7,7 @@
 
 ## Back-End
 
-> ### 킥킥 Service : Main
+> ### Service : Main
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
 > Proxy Server : NginX v1.14.0   
@@ -24,7 +24,7 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- ODM : Mongoose v5.3.11   
 <br>
 
-> ### 킥킥 Service : Recommender Engine
+> ### Service : Recommender Engine
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
 > Web Server : NginX v1.14.0   
@@ -38,7 +38,7 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	ML Package : scikit-learn v0.21.1   
 <br>
 
-> ###	킥킥 Admin
+> ### Admin
 > AWS EC2 Instance : t3.medium   
 > OS : Ubuntu 18.04 LTS   
 > Proxy Server : NginX v1.14.0   
@@ -55,7 +55,7 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	ODM : Mongoose v5.3.11   
 <br>
 
-> ###	공통 / MongoDB Atlas
+> ### MongoDB Atlas
 > AWS Region : Seoul (ap-northest-2)   
 > Cluster Tier : M10   
 > MongoDB version : v4.0.16   
@@ -63,7 +63,7 @@
 > Backups : Active   
 <br>
 
-> ###	공통 / AWS S3
+> ### AWS S3
 > AWS Region : Seoul (ap-northest-2)   
 > Access type : Public   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-profiles-pub   
