@@ -63,35 +63,24 @@
 > Backups : Active   
 <br>
 
-> ### AWS S3
-> AWS Region : Seoul (ap-northest-2)   
-> Access type : Public   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-profiles-pub   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-seasons-pub   
-> Access type : Private   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-cat-animation-img   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-cat-music-img   
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	kks-cat-youtuber-img   
-<br>
-
 
 ## Front-End (Client)
 
 > ### Hybrid Mobile App
-> Framework :
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Angular 6
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Ionic 4
-> Cordova : v8.1.2
-> Platforms :
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Android : v8.0.0
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	iOS : v4.5.5
-> Authentication : One-Time Password & JSON Web Token from Server
+> Framework :   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Angular 6   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Ionic 4   
+> Cordova : v8.1.2   
+> Platforms :   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Android : v8.0.0   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	iOS : v4.5.5   
+> Authentication : One-Time Password & JSON Web Token from Server   
 <br>
 
 > ### Admin Website
-> Framework :
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Angular 6
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Ionic 4
-> Authentication : Legacy Login & User information from Server Session
+> Framework :   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Angular 6   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Ionic 4   
+> Authentication : Legacy Login & User information from Server Session   
 
 
