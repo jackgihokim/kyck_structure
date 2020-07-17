@@ -70,6 +70,10 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Framework : Express v4.16.4   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Authentication : crypto & express-session with Passport   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	ODM : Mongoose v5.3.11   
+>
+> 유저는 Admin/Manager/Editor로 Role이 나누어져 있고 Passport를 사용하여 Legacy 방식으로 로그인하며 express-session을 사용하여 세션정보를 MongoDB(connect-mongo 사용)에 저장하여 관리하고 각 유저들의 관리자 페이지의서의 작업은 middleware를 통해 따로 저장해 놓습니다.   
+> 동영상의 메타데이터 및 자체 작성 정보를 DB에 저장하고 관련 이미지를 S3로 업로드합니다.   
+> 모바일앱에서 업데이트 될 유튜브 채널 및 동영상 관리, 이벤트 모달(Modal) 및 게시판의 데이터 관리 기능 등이 있습니다.   
 <br>
 
 > ### MongoDB Atlas
@@ -78,6 +82,9 @@
 > MongoDB version : v4.0.16   
 > Replica Set : 3 nodes   
 > Backups : Active   
+>
+> 3개의 노드로 구성된 Replica Set을 사용하였고Sharding은 사용하지 않았습니다.   
+> ODM(Object Data Mapping)으로 Mongoose를 사용하여 모든 모델들의 스키마(Schema)가 정해져 있고 메모리 대비 효율적인 퍼포먼스를 위해 하나의 모델 당 인덱싱(Indexing)은 최대 3-4개 정도로 한정하여 구성했습니다.   
 <br>
 
 
