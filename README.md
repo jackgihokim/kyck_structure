@@ -47,6 +47,12 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	WSGI HTTP Server : Gunicorn v19.7.1   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Process Manager : Supervisor v3.3.1-1.1   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	ML Package : scikit-learn v0.21.1   
+>
+> 메인서버로 부터 요청이 오면 해당 사용자에 맞는 추천 동영상 데이터를 응답하는 Flask 서버입니다.   
+> 서비스 초기 적은 데이터의 소규모 사용자에 맞춘 추천 시스템입니다.   
+> 각 동영상 별 메타데이터를 활용한 레이블링(Labeling) 및 자체 지정한 특정 레이블링으로 이루어진 개별 동영상의 사용자 시청에 따른 데이터를 벡터화(Vectorization)한 후 KNN(K-Nearest Neighbors)을 이용하여 회기( Regression) 분석을 하는 것에 기초를 두었습니다.   
+> 기본적으로 동영상 별 거리 측정은 유클리드 거리(Euclidean Distance)를 사용하고 특정 동영상을 중심으로 n개의 근접 동영상들, 그리고 시청 동영상의 시리즈 별 연계성을 고려하여 최종적으로 사용자에게 동영상을 추천하는 시스템입니다.   
+> 좀 더 나은 퍼포먼스를 위해 Vectorizing한 시청 데이터를 계속적으로 DB에 업데이트하고 요청이 왔을 때 불러와 연산하는 방식을 취했습니다.   
 <br>
 
 > ### Admin
