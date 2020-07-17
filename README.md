@@ -1,4 +1,4 @@
-# kyck_structure
+# Kyck-Kyck Structure
 
 ## 서비스 구성
 <img width="717" alt="kyck_diagram" src="https://user-images.githubusercontent.com/61036148/87640935-6442d980-c782-11ea-97c6-6e0b15323530.png">
