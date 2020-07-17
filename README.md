@@ -33,7 +33,9 @@ Youtube API를 사용하여 동영상 정보를 가져와 활용하고 FCM을 �
 로그인과 인증은 Legacy 방식을 사용하지 않고 사용자의 전화번호로OTP(One-Time Password)를 발행하고 인증이 되면 JWT(JSON Web Token)를 발급하도록 되어있습니다.
 전체 사용자의 동영상 시청 데이터 관련 주기적 연산 작업(예: 시간당 전체 평균 등)은 Cron Job을 통해 하였습니다.
 Flask 서버로 추천 데이터를 요청하고 받은 데이터와 계속적으로 업데이트 되는 시청 패턴과 학습 관련 데이터를 클라이언트로 보냅니다.
+
 <br>
+
 
 > ### Service : Recommender Engine
 > AWS EC2 Instance : t3.medium   
