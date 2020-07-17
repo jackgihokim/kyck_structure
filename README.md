@@ -26,7 +26,7 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Framework : Express v4.16.4   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Authentication : JSON Web Token with Passport & One-Time Password   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- ODM : Mongoose v5.3.11   
-모바일 앱에 대한 서버이며Proxy server로 있는 NginX는 HTTPS, 메인 서버인Node.js는 HTTP를 사용합니다.
+모바일 앱에 대한 서버이며Proxy server로 있는 NginX는 HTTPS, 메인 서버인Node.js는 HTTP를 사용합니다.   
 SSL/TLS 인증서 발급은 Let’s Encrypt, 등록과 자동갱신 설정은 Certbot을 사용했습니다.
 Youtube API를 사용하여 동영상 정보를 가져와 활용하고 FCM을 사용하여 사용자에게 Push 메세지를 보냅니다.
 로그인과 인증은 Legacy 방식을 사용하지 않고 사용자의 전화번호로OTP(One-Time Password)를 발행하고 인증이 되면 JWT(JSON Web Token)를 발급하도록 되어있습니다.
